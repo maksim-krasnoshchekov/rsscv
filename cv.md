@@ -50,3 +50,15 @@ function disemvowel(str) {
 ```
 
 ## Experience
+
+## Courses
+
+### [sololearn](https://www.sololearn.com/)
+
+- [**JavaScript**](https://www.sololearn.com/certificates/CT-ZLI5JFNF)
+- [**HTML**](https://www.sololearn.com/certificates/CT-TD1RRJHV)
+- [**CSS**](https://www.sololearn.com/certificates/CT-RZUGJO36)
+
+## Languages
+
+B1 intermediate
