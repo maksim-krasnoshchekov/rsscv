@@ -4,53 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>CV#2. HTML, CSS & Git Basics</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <div class="header__left-side">
-          <img src="#" alt="avatar" class="header__photo" />
-        </div>
-        <div class="header__right-side">
-          <h1 class="header__title">Maksim Krasnoshchekov</h1>
+    <header class="header">
+      <div class="header__left-side left-side">
+        <img src="#" alt="avatar" class="header__photo" />
+      </div>
+      <div class="header__right-side right-side">
+        <div class="header__wrapper-title">
+          <h1 class="header__title">
+            <a href="https://github.com/maksim-krasnoshchekov"
+              ><span>Maksim</span> Krasnoshchekov</a
+            >
+          </h1>
           <h2 class="header__subtitle">Front-end web developer (Beginner)</h2>
-          <div class="header__contacts contact">
-            <div class="contact__location">
-              <h3 class="contact__location-titile">Location</h3>
-              <p class="contact__location-text">Minsk, Belarus</p>
-            </div>
-            <div class="contact__phone">
-              <h3 class="contact__phone-titile">Phone number</h3>
-              <a class="contact__phone-text" href="tel:+375888888888">+375 ** *** ** **</a>
-            </div>
-            <div class="contact__email">
-              <h3 class="contact__email-titile">Email</h3>
-              <a class="contact__email-text" href="mailto:krasnoshchekov.m.a@gmail.com"
-                >krasnoshchekov.m.a@gmail.com</a
-              >
-            </div>
+        </div>
+
+        <div class="header__contacts contact">
+          <div class="contact__location">
+            <h3 class="contact__location-titile">Location</h3>
+            <p class="contact__location-text">Minsk, Belarus</p>
+          </div>
+          <div class="contact__phone">
+            <h3 class="contact__phone-titile">Phone number</h3>
+            <a class="contact__phone-text" href="tel:+375**">+375 ** *** ** **</a>
+          </div>
+          <div class="contact__email">
+            <h3 class="contact__email-titile">Email</h3>
+            <a class="contact__email-text" href="mailto:krasnoshchekov.m.a@gmail.com"
+              >krasnoshchekov.m.a@gmail.com</a
+            >
           </div>
         </div>
-      </header>
-      <section class="about">
-        <div class="about__left-side">
-          <h2 class="adout__title title">About me</h2>
-          <h3 class="about__subtitle subtitle">A few words</h3>
-        </div>
-        <div class="about__right-side">
-          <p class="about__text">I want to become a Front-end Developer!</p>
-        </div>
-      </section>
-      <section class="skills">
-        <div class="skills__left-side">
-          <h2 class="skills__title title">Skills</h2>
-          <h3 class="skills__subtitle subtitle">In progress</h3>
-        </div>
-        <div class="skills__rigth-side">
+      </div>
+    </header>
+    <section class="about">
+      <div class="about__left-side left-side">
+        <h2 class="adout__title title">About me</h2>
+        <h3 class="about__subtitle subtitle">A few words</h3>
+      </div>
+      <div class="about__right-side right-side">
+        <p class="about__text">I want to become a Front-end Developer!</p>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="skills__left-side left-side">
+        <h2 class="skills__title title">Skills</h2>
+        <h3 class="skills__subtitle subtitle">In progress</h3>
+      </div>
+      <div class="skills__rigth-side right-side">
+        <div class="skills__items-wrapper">
           <div class="skills__items">
             <h4 class="skills__items-title">HTML</h4>
-            <p class="skills__percent-progress">100%</p>
+            <p class="skills__percent-progress">99%</p>
             <div class="skills__bar-progress">
               <div class="skills__bar-progress--empty"></div>
             </div>
@@ -77,14 +85,15 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class="example">
-        <div class="example__left-side">
-          <h2 class="example__title title">Code example</h2>
-          <h3 class="example__subtittle subtitle">Disemvowel Trolls</h3>
-        </div>
-        <div class="example__right-side">
-          <pre class="example__code">
+      </div>
+    </section>
+    <section class="example">
+      <div class="example__left-side left-side">
+        <h2 class="example__title title">Code example</h2>
+        <h3 class="example__subtittle subtitle">Disemvowel Trolls</h3>
+      </div>
+      <div class="example__right-side right-side">
+        <pre class="example__code">
             <code class="example__code-text">
                 function disemvowel(str) {
                     let i = 0;
@@ -111,32 +120,75 @@
                    }
             </code>
         </pre>
-        </div>
-      </section>
-      <section class="education">
-        <div class="education__left-side">
-          <h2 class="education__title title">Education</h2>
-          <h3 class="education__subtitle subtitle">Still will</h3>
-        </div>
-        <div class="education__rigth-side">
-          <h4 class="education__title courses">Courses:</h4>
-          <ul class="courses__items">
-            <li class="courses__item">JavaScript</li>
-            <li class="courses__item">HTML</li>
-            <li class="courses__item">CSS</li>
-          </ul>
-        </div>
-      </section>
-      <section class="languages">
-        <div class="languages__left-side">
-          <h2 class="languages__title title">Languages</h2>
-          <h3 class="languages__subtitle subtitle">English</h3>
-        </div>
-        <div class="languages__right-side">
-          <p class="languages__text">B1 intermediate</p>
-        </div>
-      </section>
-      <footer class="footer">
+      </div>
+    </section>
+    <section class="education">
+      <div class="education__left-side left-side">
+        <h2 class="education__title title">Education</h2>
+        <h3 class="education__subtitle subtitle">Still will</h3>
+      </div>
+      <div class="education__rigth-side right-side">
+        <h4 class="education__courses">Courses</h4>
+        <a class="courses__link" href="https://www.sololearn.com/profile/21477571">
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            class="sol-illustration">
+            <g id="logo.simplified">
+              <g id="Logo" clip-path="url(#clip0_2813_8103)">
+                <g id="Logo_2" clip-path="url(#clip1_2813_8103)">
+                  <path
+                    id="Vector"
+                    d="M21.4906 7.15989C24.9115 7.15989 27.985 8.66049 30.0696 11.0588C30.7778 11.8627 32.1008 11.3133 31.9939 10.2415C31.927 9.54477 31.7934 8.83467 31.593 8.12456C30.5373 4.34628 27.5173 1.39868 23.7356 0.407212C16.1321 -1.60251 9.29028 4.10511 9.29028 11.4071C9.29028 11.8761 9.31701 12.345 9.37046 12.8005C9.50409 13.859 10.9206 14.1269 11.4283 13.1891C13.3526 9.59836 17.1343 7.15989 21.4906 7.15989Z"
+                    fill="#FFA310"></path>
+                  <path
+                    id="Vector_2"
+                    d="M7.16402 10.5093C7.16402 7.08844 8.66368 4.01498 11.0605 1.93036C11.8638 1.22213 11.3149 -0.100797 10.2437 0.00610591C9.53402 0.0729204 8.82436 0.206549 8.11469 0.39363C4.33877 1.46266 1.39301 4.46932 0.402163 8.25102C-1.59292 15.8679 4.11114 22.7097 11.4086 22.7097C11.8772 22.7097 12.3459 22.683 12.8011 22.6295C13.8589 22.4959 14.1267 21.0794 13.1894 20.5716C9.60096 18.6474 7.16402 14.8657 7.16402 10.5093Z"
+                    fill="#149EF2"></path>
+                  <path
+                    id="Vector_3"
+                    d="M10.5032 24.8494C7.08428 24.8494 4.01262 23.3497 1.92923 20.9529C1.22141 20.1496 -0.100738 20.6985 0.00610232 21.7697C0.0728775 22.466 0.206428 23.1757 0.406754 23.8853C1.4618 27.6612 4.48004 30.607 8.25952 31.5979C15.8719 33.5929 22.7097 27.8889 22.7097 20.5914C22.7097 20.1228 22.683 19.6541 22.6295 19.1989C22.496 18.1411 21.0804 17.8733 20.5729 18.8106C18.6364 22.4124 14.8569 24.8494 10.5032 24.8494Z"
+                    fill="#F20057"></path>
+                  <path
+                    id="Vector_4"
+                    d="M24.8494 21.4968C24.8494 24.9157 23.3497 27.9874 20.9529 30.0708C20.1496 30.7786 20.6985 32.1007 21.7697 31.9939C22.466 31.9271 23.1757 31.7936 23.8853 31.5932C27.6612 30.5382 30.607 27.52 31.5979 23.7405C33.5929 16.1281 27.8889 9.29031 20.5914 9.29031C20.1228 9.29031 19.6541 9.31702 19.1989 9.37044C18.1411 9.50399 17.8733 10.9196 18.8106 11.4271C22.4124 13.3636 24.8494 17.1431 24.8494 21.4968Z"
+                    fill="#8252DD"></path>
+                </g>
+              </g>
+            </g>
+            <defs>
+              <clipPath id="clip0_2813_8103">
+                <rect width="32" height="32" fill="white"></rect>
+              </clipPath>
+              <clipPath id="clip1_2813_8103">
+                <rect width="32" height="32" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+          <h5 class="courses__title">sololearn:</h5>
+        </a>
+        <ul class="courses__items">
+          <li class="courses__item">JavaScript</li>
+          <li class="courses__item">HTML</li>
+          <li class="courses__item">CSS</li>
+        </ul>
+      </div>
+    </section>
+    <section class="languages">
+      <div class="languages__left-side left-side">
+        <h2 class="languages__title title">Languages</h2>
+        <h3 class="languages__subtitle subtitle">English</h3>
+      </div>
+      <div class="languages__right-side right-side">
+        <p class="languages__text">B1 intermediate</p>
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="https://rs.school/" class="footer__rsschool">
         <svg
           width="100px"
           id="Layer_1"
@@ -241,7 +293,9 @@
                     rx="63"
                     ry="51.8" />
                 </defs>
-                <clipPath id="SVGID_6_"><use xlink:href="#SVGID_5_" overflow="visible" /></clipPath>
+                <clipPath id="SVGID_6_">
+                  <use xlink:href="#SVGID_5_" overflow="visible" />
+                </clipPath>
                 <g class="st3">
                   <path
                     transform="rotate(-37 420.799 68.802)"
@@ -320,13 +374,16 @@
             </g>
           </g>
         </svg>
-        <address class="footer__author">
-          <p>Дизайн: <a href="https://github.com/kryvetski-andrei">Andrei Kryvetski</a></p>
-          <p>
-            Вёрстка: <a href="https://github.com/maksim-krasnoshchekov">Maksim Krasnoshchekov</a>
-          </p>
-        </address>
-      </footer>
-    </div>
+      </a>
+      <address class="footer__author">
+        <p>
+          Дизайн: <a href="https://github.com/kryvetski-andrei"><span>Andrei</span> Kryvetski</a>
+        </p>
+        <p>
+          Вёрстка:
+          <a href="https://github.com/maksim-krasnoshchekov"><span>Maksim</span> Krasnoshchekov</a>
+        </p>
+      </address>
+    </footer>
   </body>
 </html>
