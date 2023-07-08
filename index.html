@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>CV#2. HTML, CSS and Git Basics</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left-side left-side">
+        <div class="header__photo"></div>
+      </div>
+      <div class="header__right-side right-side">
+        <div class="header__wrapper-title">
+          <h1 class="header__title">
+            <a href="https://github.com/maksim-krasnoshchekov">
+              <span>
+                Maksim
+              </span> Krasnoshchekov</a>
+          </h1>
+          <h2 class="header__subtitle">Front-end web developer (Beginner)</h2>
+        </div>
+        <div class="header__contacts contact">
+          <div class="contact__location">
+            <h3 class="contact__location-titile">Location</h3>
+            <p class="contact__location-text">Minsk, Belarus</p>
+          </div>
+          <div class="contact__phone">
+            <h3 class="contact__phone-titile">Phone number</h3>
+            <a class="contact__phone-text" href="tel:+375**">+375&nbsp;**&nbsp;***&nbsp;**&nbsp;**</a>
+          </div>
+          <div class="contact__email">
+            <h3 class="contact__email-titile">Email</h3>
+            <a class="contact__email-text" href="mailto:krasnoshchekov.m.a@gmail.com">krasnoshchekov.m.a@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="about">
+      <div class="about__left-side left-side">
+        <h2 class="adout__title title">About me</h2>
+        <h3 class="about__subtitle subtitle">A few words</h3>
+      </div>
+      <div class="about__right-side right-side">
+        <p class="about__text">I want to become a Front-end Developer!</p>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="skills__left-side left-side">
+        <h2 class="skills__title title">Skills</h2>
+        <h3 class="skills__subtitle subtitle">In progress</h3>
+      </div>
+      <div class="skills__rigth-side right-side">
+        <div class="skills__items-wrapper">
+          <div class="skills__items">
+            <h4 class="skills__items-title">HTML</h4>
+            <p class="skills__percent-progress">99%</p>
+            <div class="skills__bar-progress">
+              <div class="skills__bar-progress--empty"></div>
+            </div>
+          </div>
+          <div class="skills__items">
+            <h4 class="skills__items-title">CSS</h4>
+            <p class="skills__percent-progress">97%</p>
+            <div class="skills__bar-progress">
+              <div class="skills__bar-progress--empty"></div>
+            </div>
+          </div>
+          <div class="skills__items">
+            <h4 class="skills__items-title">JavaScript (Basic)</h4>
+            <p class="skills__percent-progress">91%</p>
+            <div class="skills__bar-progress">
+              <div class="skills__bar-progress--empty"></div>
+            </div>
+          </div>
+          <div class="skills__items">
+            <h4 class="skills__items-title">Git</h4>
+            <p class="skills__percent-progress">78%</p>
+            <div class="skills__bar-progress">
+              <div class="skills__bar-progress--empty"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="example">
+      <div class="example__left-side left-side">
+        <h2 class="example__title title">Code example</h2>
+        <h3 class="example__subtittle subtitle">Disemvowel Trolls</h3>
+      </div>
+      <div class="example__right-side right-side">
+        <pre class="example__code">
+            <code class="example__code-text">
+                function disemvowel(str) {
+                    let i = 0;
+                     let result = '';
+                     while (i &lt; str.length) {
+                       if (str[i].toLowerCase() === 'a') {
+                         result = result + '';
+                       } else if (str[i].toLowerCase() === 'e') {
+                         result = result + '';
+                       } else if (str[i].toLowerCase() === 'i') {
+                         result = result + '';
+                       } else if (str[i].toLowerCase() === 'o') {
+                         result = result + '';
+                       } else if (str[i].toLowerCase() === 'u') {
+                         result = result + '';
+                       } else {
+                         result = result + str[i];
+                       }
+                       i = i + 1;
+                     }
+                     return result;
+                   }
+            </code>
+        </pre>
+      </div>
+    </section>
+    <section class="education">
+      <div class="education__left-side left-side">
+        <h2 class="education__title title">Education</h2>
+        <h3 class="education__subtitle subtitle">Still will</h3>
+      </div>
+      <div class="education__rigth-side right-side">
+        <h4 class="education__courses">Courses</h4>
+        <a class="courses__link" href="https://www.sololearn.com/profile/21477571">
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            class="sol-illustration">
+            <g id="logo.simplified">
+              <g id="Logo" clip-path="url(#clip0_2813_8103)">
+                <g id="Logo_2" clip-path="url(#clip1_2813_8103)">
+                  <path
+                    id="Vector"
+                    d="M21.4906 7.15989C24.9115 7.15989 27.985 8.66049 30.0696 11.0588C30.7778 11.8627 32.1008 11.3133 31.9939 10.2415C31.927 9.54477 31.7934 8.83467 31.593 8.12456C30.5373 4.34628 27.5173 1.39868 23.7356 0.407212C16.1321 -1.60251 9.29028 4.10511 9.29028 11.4071C9.29028 11.8761 9.31701 12.345 9.37046 12.8005C9.50409 13.859 10.9206 14.1269 11.4283 13.1891C13.3526 9.59836 17.1343 7.15989 21.4906 7.15989Z"
+                    fill="#FFA310"></path>
+                  <path
+                    id="Vector_2"
+                    d="M7.16402 10.5093C7.16402 7.08844 8.66368 4.01498 11.0605 1.93036C11.8638 1.22213 11.3149 -0.100797 10.2437 0.00610591C9.53402 0.0729204 8.82436 0.206549 8.11469 0.39363C4.33877 1.46266 1.39301 4.46932 0.402163 8.25102C-1.59292 15.8679 4.11114 22.7097 11.4086 22.7097C11.8772 22.7097 12.3459 22.683 12.8011 22.6295C13.8589 22.4959 14.1267 21.0794 13.1894 20.5716C9.60096 18.6474 7.16402 14.8657 7.16402 10.5093Z"
+                    fill="#149EF2"></path>
+                  <path
+                    id="Vector_3"
+                    d="M10.5032 24.8494C7.08428 24.8494 4.01262 23.3497 1.92923 20.9529C1.22141 20.1496 -0.100738 20.6985 0.00610232 21.7697C0.0728775 22.466 0.206428 23.1757 0.406754 23.8853C1.4618 27.6612 4.48004 30.607 8.25952 31.5979C15.8719 33.5929 22.7097 27.8889 22.7097 20.5914C22.7097 20.1228 22.683 19.6541 22.6295 19.1989C22.496 18.1411 21.0804 17.8733 20.5729 18.8106C18.6364 22.4124 14.8569 24.8494 10.5032 24.8494Z"
+                    fill="#F20057"></path>
+                  <path
+                    id="Vector_4"
+                    d="M24.8494 21.4968C24.8494 24.9157 23.3497 27.9874 20.9529 30.0708C20.1496 30.7786 20.6985 32.1007 21.7697 31.9939C22.466 31.9271 23.1757 31.7936 23.8853 31.5932C27.6612 30.5382 30.607 27.52 31.5979 23.7405C33.5929 16.1281 27.8889 9.29031 20.5914 9.29031C20.1228 9.29031 19.6541 9.31702 19.1989 9.37044C18.1411 9.50399 17.8733 10.9196 18.8106 11.4271C22.4124 13.3636 24.8494 17.1431 24.8494 21.4968Z"
+                    fill="#8252DD"></path>
+                </g>
+              </g>
+            </g>
+            <defs>
+              <clipPath id="clip0_2813_8103">
+                <rect width="32" height="32" fill="white"></rect>
+              </clipPath>
+              <clipPath id="clip1_2813_8103">
+                <rect width="32" height="32" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+          <h5 class="courses__title">sololearn:</h5>
+        </a>
+        <ul class="courses__items">
+          <li class="courses__item">JavaScript</li>
+          <li class="courses__item">HTML</li>
+          <li class="courses__item">CSS</li>
+        </ul>
+      </div>
+    </section>
+    <section class="languages">
+      <div class="languages__left-side left-side">
+        <h2 class="languages__title title">Languages</h2>
+        <h3 class="languages__subtitle subtitle">English</h3>
+      </div>
+      <div class="languages__right-side right-side">
+        <p class="languages__text">B1 intermediate</p>
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="https://rs.school/" class="footer__rsschool">
+        <svg
+          width="100px"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 552.8 205.3">
+          <style>
+            .st0 {
+              fill: none;
+            }
+            .st1 {
+              clip-path: url(#SVGID_2_);
+            }
+            .st2 {
+              clip-path: url(#SVGID_4_);
+            }
+            .st3 {
+              clip-path: url(#SVGID_6_);
+            }
+            .st4 {
+              clip-path: url(#SVGID_8_);
+            }
+            .st5 {
+              fill: none;
+              stroke: #e0a80d;
+              stroke-width: 4;
+              stroke-miterlimit: 10;
+            }
+            .st6 {
+              clip-path: url(#SVGID_8_);
+            }
+            .st6,
+            .st7 {
+              fill: #e0a80d;
+              stroke: #e0a80d;
+              stroke-width: 4;
+              stroke-miterlimit: 10;
+            }
+            .st8,
+            .st9 {
+              clip-path: url(#SVGID_10_);
+            }
+            .st9 {
+              fill: none;
+              stroke: #e0a80d;
+              stroke-width: 4;
+              stroke-miterlimit: 10;
+            }
+          </style>
+          <title>rs_school_js</title>
+          <path
+            d="M285.4 68l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.9 3.6 6.9 5.4 12.2 5.4 3.9 0 7-.9 9.1-2.8 2-1.5 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.1-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4 6 4.2 9.6 11 10.7 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8s-5.3-2.8-9.2-2.8c-3.2 0-5.6.7-7.2 2-1.5 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.5 13.3 0 5.6-1.6 11.2-4.8 15.9-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8S286.1 77 285.4 68zM6.3 97.6V8.2h46.1c8.5 0 15.1.7 19.6 2.2 4.4 1.4 8.3 4.3 10.9 8.2 2.9 4.3 4.3 9.3 4.2 14.5.3 8.8-4.2 17.2-11.9 21.6-3 1.7-6.3 2.9-9.7 3.5 2.5.7 5 1.9 7.2 3.3 1.7 1.4 3.1 3 4.4 4.7 1.5 1.7 2.8 3.6 3.9 5.6l13.4 25.9H63L48.2 70.2c-1.9-3.5-3.5-5.8-5-6.9-2-1.4-4.4-2.1-6.8-2.1H34v36.3H6.3zM34 44.4h11.7c2.5-.2 4.9-.6 7.3-1.2 1.8-.3 3.4-1.3 4.5-2.8 2.7-3.6 2.3-8.7-1-11.8-1.8-1.5-5.3-2.3-10.3-2.3H34v18.1zM0 174.2l26.3-1.7c.6 4.3 1.7 7.5 3.5 9.8 2.8 3.6 6.9 5.5 12.2 5.5 3.9 0 7-.9 9.1-2.8 2-1.6 3.2-3.9 3.2-6.4 0-2.4-1.1-4.7-3-6.2-2-1.8-6.7-3.6-14.2-5.2-12.1-2.7-20.8-6.3-25.9-10.9-5.1-4.3-8-10.6-7.8-17.3 0-4.6 1.4-9.2 4-13 3-4.3 7.1-7.7 12-9.6 5.3-2.3 12.7-3.5 22-3.5 11.4 0 20.1 2.1 26.1 6.4s9.5 11 10.6 20.3l-26 1.5c-.7-4-2.1-6.9-4.4-8.8-2.2-1.9-5.3-2.8-9.2-2.7-3.2 0-5.6.7-7.2 2.1-1.6 1.2-2.5 3-2.4 5 0 1.5.8 2.9 2 3.8 1.3 1.2 4.4 2.3 9.3 3.3 12.1 2.6 20.7 5.2 26 7.9 5.3 2.7 9.1 6 11.4 9.9 2.4 4 3.6 8.6 3.6 13.2 0 5.6-1.7 11.1-4.8 15.8-3.3 4.9-7.9 8.7-13.3 11-5.7 2.5-12.9 3.8-21.5 3.8-15.2 0-25.7-2.9-31.6-8.8-5.9-6-9.2-13.4-10-22.4z"/>
+          <path
+            d="M133 167.2l24.2 7.3c-1.3 6.1-4 11.9-7.7 17-3.4 4.5-7.9 8-13 10.3-5.2 2.3-11.8 3.5-19.8 3.5-9.7 0-17.7-1.4-23.8-4.2-6.2-2.8-11.5-7.8-16-14.9-4.5-7.1-6.7-16.2-6.7-27.3 0-14.8 3.9-26.2 11.8-34.1s19-11.9 33.4-11.9c11.3 0 20.1 2.3 26.6 6.8 6.4 4.6 11.2 11.6 14.4 21l-24.4 5.4c-.6-2.1-1.5-4.2-2.7-6-1.5-2.1-3.4-3.7-5.7-4.9-2.3-1.2-4.9-1.7-7.5-1.7-6.3 0-11.1 2.5-14.4 7.6-2.5 3.7-3.8 9.6-3.8 17.6 0 9.9 1.5 16.7 4.5 20.4 3 3.7 7.2 5.5 12.7 5.5 5.3 0 9.3-1.5 12-4.4 2.7-3.1 4.7-7.4 5.9-13zm56.5-52.8h27.6v31.3h30.2v-31.3h27.8v89.4h-27.8v-36.2h-30.2v36.2h-27.6v-89.4z"/>
+          <path
+            d="M271.3 159.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.3 4 34.4 12S364 144 364 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8s4.9-10.8 4.9-20.8c0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5zm93.4-.1c0-14.6 4.1-26 12.2-34.1 8.1-8.1 19.5-12.2 34-12.2 14.9 0 26.4 4 34.4 12S485 144 485 158.4c0 10.5-1.8 19-5.3 25.7-3.4 6.6-8.7 12-15.2 15.6-6.7 3.7-15 5.6-24.9 5.6-10.1 0-18.4-1.6-25-4.8-6.8-3.4-12.4-8.7-16.1-15.2-4.1-7-6.2-15.7-6.2-26.2zm27.6.1c0 9 1.7 15.5 5 19.5 3.3 3.9 7.9 5.9 13.7 5.9 5.9 0 10.5-1.9 13.8-5.8 3.3-3.9 4.9-10.8 4.9-20.8 0-8.4-1.7-14.6-5.1-18.4-3.4-3.9-8-5.8-13.8-5.8-5.1-.2-10.1 2-13.4 5.9-3.4 3.9-5.1 10.4-5.1 19.5z"/>
+          <path d="M482.1 114.4h27.6v67.4h43.1v22H482v-89.4z"/>
+          <ellipse
+            transform="rotate(-37.001 420.46 67.88)"
+            class="st0"
+            cx="420.5"
+            cy="67.9"
+            rx="63"
+            ry="51.8"/>
+          <defs>
+            <ellipse
+              id="SVGID_1_"
+              transform="rotate(-37.001 420.46 67.88)"
+              cx="420.5"
+              cy="67.9"
+              rx="63"
+              ry="51.8"/>
+          </defs>
+          <clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" overflow="visible"/></clipPath>
+          <g class="st1">
+            <path
+              transform="rotate(-37.001 420.82 68.353)"
+              class="st0"
+              d="M330.9-14.2h179.8v165.1H330.9z"/>
+            <g id="Layer_2_1_">
+              <defs>
+                <path
+                  id="SVGID_3_"
+                  transform="rotate(-37.001 420.82 68.353)"
+                  d="M330.9-14.2h179.8v165.1H330.9z"/>
+              </defs>
+              <clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" overflow="visible"/></clipPath>
+              <g id="Layer_1-2" class="st2">
+                <ellipse
+                  transform="rotate(-37.001 420.46 67.88)"
+                  class="st0"
+                  cx="420.5"
+                  cy="67.9"
+                  rx="63"
+                  ry="51.8"/>
+                <defs>
+                  <ellipse
+                    id="SVGID_5_"
+                    transform="rotate(-37.001 420.46 67.88)"
+                    cx="420.5"
+                    cy="67.9"
+                    rx="63"
+                    ry="51.8"/>
+                </defs>
+                <clipPath id="SVGID_6_">
+                  <use xlink:href="#SVGID_5_" overflow="visible"/>
+                </clipPath>
+                <g class="st3">
+                  <path
+                    transform="rotate(-37 420.799 68.802)"
+                    class="st0"
+                    d="M357.8 17h125.9v103.7H357.8z"/>
+                  <defs>
+                    <path
+                      id="SVGID_7_"
+                      transform="rotate(-37 420.799 68.802)"
+                      d="M357.8 17h125.9v103.7H357.8z"/>
+                  </defs>
+                  <clipPath id="SVGID_8_">
+                    <use xlink:href="#SVGID_7_" overflow="visible"/>
+                  </clipPath>
+                  <g class="st4">
+                    <ellipse
+                      transform="rotate(-37.001 420.46 67.88)"
+                      class="st5"
+                      cx="420.5"
+                      cy="67.9"
+                      rx="63"
+                      ry="51.8"/>
+                  </g>
+                  <path
+                    transform="rotate(-37 420.799 68.802)"
+                    class="st6"
+                    d="M357.8 17h125.9v103.7H357.8z"/>
+                  <ellipse
+                    transform="rotate(-37.001 420.46 67.88)"
+                    class="st7"
+                    cx="420.5"
+                    cy="67.9"
+                    rx="63"
+                    ry="51.8"/>
+                  <path
+                    transform="rotate(-37 420.799 68.802)"
+                    class="st0"
+                    d="M357.8 17h125.9v103.7H357.8z"/>
+                  <defs>
+                    <path
+                      id="SVGID_9_"
+                      transform="rotate(-37 420.799 68.802)"
+                      d="M357.8 17h125.9v103.7H357.8z"/>
+                  </defs>
+                  <clipPath id="SVGID_10_">
+                    <use xlink:href="#SVGID_9_" overflow="visible"/>
+                  </clipPath>
+                  <g class="st8">
+                    <ellipse
+                      transform="rotate(-37.001 420.46 67.88)"
+                      class="st5"
+                      cx="420.5"
+                      cy="67.9"
+                      rx="63"
+                      ry="51.8"/>
+                  </g>
+                  <path
+                    transform="rotate(-37 420.799 68.802)"
+                    class="st9"
+                    d="M357.8 17h125.9v103.7H357.8z"/>
+                  <path
+                    transform="rotate(-37.001 420.82 68.353)"
+                    class="st7"
+                    d="M330.9-14.2h179.8v165.1H330.9z"/>
+                </g>
+                <ellipse
+                  transform="rotate(-37.001 420.46 67.88)"
+                  class="st7"
+                  cx="420.5"
+                  cy="67.9"
+                  rx="63"
+                  ry="51.8"/>
+                <path
+                  d="M392.4 61.3l10-7 12.3 17.5c2.1 2.8 3.7 5.8 4.9 9.1.7 2.5.5 5.2-.5 7.6-1.3 3-3.4 5.5-6.2 7.3-3.3 2.3-6.1 3.6-8.5 4-2.3.4-4.7 0-6.9-1-2.4-1.2-4.5-2.9-6.1-5.1l8.6-8c.7 1.1 1.6 2.1 2.6 2.9.7.5 1.5.8 2.4.8.7 0 1.4-.3 1.9-.7 1-.6 1.7-1.8 1.6-3-.3-1.7-1-3.4-2.1-4.7l-14-19.7zm30 11.1l9.1-7.2c1 1.2 2.3 2.1 3.7 2.6 2 .6 4.1.2 5.8-1.1 1.2-.8 2.2-1.9 2.6-3.3.6-1.8-.4-3.8-2.2-4.4-.3-.1-.6-.2-.9-.2-1.2-.1-3.3.4-6.4 1.7-5.1 2.1-9.1 2.9-12.1 2.6-2.9-.3-5.6-1.8-7.2-4.3-1.2-1.7-1.8-3.7-1.9-5.7 0-2.3.6-4.6 1.9-6.5 1.9-2.7 4.2-5 7-6.8 4.2-2.9 7.9-4.3 11.1-4.3 3.2 0 6.2 1.5 9 4.6l-9 7.1c-1.8-2.3-5.2-2.8-7.5-1l-.3.3c-1 .6-1.7 1.5-2.1 2.6-.3.8-.1 1.7.4 2.4.4.5 1 .9 1.7.9.8.1 2.2-.3 4.2-1.2 5-2.1 8.8-3.3 11.4-3.7 2.2-.4 4.5-.2 6.6.7 1.9.8 3.5 2.2 4.6 3.9 1.4 2 2.2 4.4 2.3 6.9.1 2.6-.6 5.1-2 7.3-1.8 2.7-4.1 5-6.8 6.8-5.5 3.8-10 5.4-13.6 4.8-3.9-.6-7.1-2.6-9.4-5.5z"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </a>
+      <address class="footer__author">
+        <p>
+          Дизайн: <a href="https://github.com/kryvetski-andrei"><span>Andrei</span> Kryvetski</a>
+        </p>
+        <p>
+          Вёрстка:
+          <a href="https://github.com/maksim-krasnoshchekov"><span>Maksim</span> Krasnoshchekov</a>
+        </p>
+      </address>
+    </footer>
+  </body>
+</html>
