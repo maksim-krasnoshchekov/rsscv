@@ -65,7 +65,7 @@ section {
 }
 
 .header__photo {
-  background-image: url(/avatar.jpg);
+  background-image: url(avatar.jpg);
   background-position: center;
   background-size: 240px;
   width: 250px;
